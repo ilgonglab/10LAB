@@ -22,8 +22,13 @@ span {
 }
 .main {
     margin: 30px auto;
-    height: 500px; 
-    background: url(../img/working.jpg) no-repeat center center;
+    height: 700px; 
+    background: url(../img/10lab.jpg) no-repeat center center;
+    background-size: 100%;
+}
+
+.content {
+    margin-bottom: 50px;
 }
 .title {
         padding-bottom: 20px;
