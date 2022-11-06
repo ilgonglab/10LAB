@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* reset */
+a {
+  text-decoration: none;
+}
+
+a:visited { 
+  color: #215BA5;
+}
+a:active { 
+  font-weight: 400;
+}
+
+body {
+  min-width: 1080px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #215ba5;
+  /* height: 100%; */
+}
+
+
+/* font */
+.title {
+  font-size: 50px;  
+  font-weight: 100;
+  line-height: 60px;
+}
+.title span {
+  font-weight: 900;
+}
+
+/* container */
+#container {
+  width: 1280px;
+  margin: 0 auto;
+  height: 100vh;
+  /* background-color: aquamarine; */
+  position: relative;
+}
+
+/* nav */
+#container #main_nav {
+  height: 144px;
+  /* background-color: coral; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#container #main_nav .menu {
+  display: flex;
+}
+
+#container #main_nav .menu li {
+  padding: 14px;  
+}
+
+#container #main_nav .menu li a {
+  display: inline-block;
+  padding:14px;
+  transition: color 0.5s;
+}
+
+#container #main_nav .menu li a:hover {
+  background-color: #215BA5;
+  color: #fff;
+  border-radius: 40px;
+}
+
+
+#container #main_nav #logo{
+  height: 20px;
+}
+
+
+#container section {
+  margin-top: 77px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#container section .title {
+  margin-bottom: 49px;
+}
+
+#container section a {
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  width: 346px;
+  height: 63px;
+  line-height: 63px;
+  border: 1px solid #215BA5;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+#container section a:hover {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 900;
+  background-color: #215BA5;
+}
+/* footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  font-size: 12px;
+  padding: 20px 0;
+}

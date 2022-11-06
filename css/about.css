@@ -1,0 +1,32 @@
+#container section {
+  position: absolute;
+  top: 221px;
+  right: 109px;
+}
+
+
+#container section .main_image#about_img {
+  width: 407px;
+} 
+
+#container article {
+  position: absolute;
+  top: 337px;
+  left: 109px;
+  width: 407px;
+}
+
+#container article h2 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+#container article p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+#container article div {
+  margin-bottom: 50px;
+}
